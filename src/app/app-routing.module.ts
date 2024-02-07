@@ -6,18 +6,19 @@ import { HomePageComponent } from './shared/pages/home-page/home-page.component'
 
 const routes: Routes = [
   {
-    path: 'about',
-    component: AboutPageComponent
-  },
-
-  {
-    path: 'home',
+    path: '',
     component: HomePageComponent
   },
 
   {
+    path: 'about',
+    component: AboutPageComponent
+  },
+
+
+  {
     path: '**',
-    redirectTo: 'home'
+    redirectTo: ''
   }
 
 ];
