@@ -11,9 +11,14 @@
   </div>
 </div>
 
+<hr>
 <div class="row">
   <div class="col">
     <!-- Resultados de la búsqueda -->
-    tabla de resultados
+    <ul>
+      <li *ngFor="let country of countries">
+        {{ country.name.official }} - {{ country.capital }} - {{ country.population }}
+      </li>
+    </ul>
   </div>
 </div>
