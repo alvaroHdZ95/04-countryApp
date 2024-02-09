@@ -17,8 +17,7 @@ export class CountriesService {
           console.log(error);
 
           return of([]);
-        } ),
-        delay( 2000 ) //* Provisional para probar un loading
+        } )
       );
   }
 
