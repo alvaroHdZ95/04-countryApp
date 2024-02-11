@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, map, of, tap } from 'rxjs';
-import { Country } from '../interfaces/country';
+import { Country } from '../interfaces/country.type';
 import { CacheStore } from '../interfaces/cache-store.interface';
 import { Region } from '../interfaces/region.type';
 
